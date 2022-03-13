@@ -1,0 +1,121 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  border: 1px solid;
+  padding: 50px;
+  background-color: #4F4F4F;
+}
+
+.container .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 400px;
+  height: auto;
+}
+
+.container .sub .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33%;
+  border-bottom: 3px solid gray;
+  border-right: 3px solid gray;
+  height: 150px;
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.container .sub .box-3 {
+  border-right: none;
+}
+
+.container .sub .box-6 {
+  border-right: none;
+}
+
+.container .sub .box-7 {
+  border-bottom: none;
+}
+
+.container .sub .box-8 {
+  border-bottom: none;
+}
+
+.container .sub .box-9 {
+  border-right: none;
+  border-bottom: none;
+}
+
+.container .menu {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.container .menu button {
+  border: none;
+  border-radius: 10px;
+  width: 110px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.container .menu button:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.container h1, .container h2 {
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
