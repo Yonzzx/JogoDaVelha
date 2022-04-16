@@ -4,21 +4,25 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: 	#4F4F4F;
+}
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 1px solid;
-    padding: 50px;
-    background-color: 	#4F4F4F;
+    height: 100vh;
+
+
 .sub{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 400px;
     height: auto;
+    
 
 .box{
     display: flex;
@@ -32,13 +36,10 @@
     color: white;
     text-transform: uppercase;
     cursor: pointer;
+  
 
 }
 
-
-.box-1{
-
-}
 
 .box-3{
 border-right: none;
@@ -56,38 +57,50 @@ border-right: none;
         border-right: none;
         border-bottom: none;
  }
-
 }
 
 
 .menu{
-    margin: 10px;
+margin-bottom: 50px;
+
+h1{
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+   
+    }
+}
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    border-radius: 10px;
-    
     button{
         border: none;
         border-radius: 10px;
-        width: 110px;
+        width: auto;
+        height: 50px;
         padding: 10px;
         background-color: #333;
         color: #fff;
         cursor: pointer;
         text-transform: uppercase;
         transform: scale(0.9);
+        font-size: 20px;
         &:hover{
             transform: scale(1.0);
         }
     }
 }
 
-h1,h2{
-    margin: 20px;
-    font-size: 20px;
-    color: white;
-    text-transform: uppercase;
+@media screen and(max-width:760px) {
+    .sub{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 400px;
+        height: auto;
+        padding:10px;
 }
 }
